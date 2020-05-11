@@ -1,2 +1,0 @@
-# guptais.github.io
-website
