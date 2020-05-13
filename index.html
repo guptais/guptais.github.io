@@ -1,3 +1,112 @@
-<h1>Welcome to my World!<h1>
+<!DOCTYPE html>
+<html lang="en">
 
-    <h5>Comming Soon!</h5>
+<head>
+  <title>Isha Gupta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {
+      height: 600px
+    }
+
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .row.content {
+        height: auto;
+      }
+
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">IGT</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <!-- <li><a href="#">About</a></li> -->
+          <li><a href="https://medium.com/@ishagupta_75770/how-to-use-confluent-http-sink-connector-419565c88146"
+              target="_blank">Blog</a>
+          </li>
+          <!-- <li><a href="#">Interests</a></li>
+          <li><a href="#">Contact</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid text-center">
+    <div class="row content">
+      <div class="col-sm-10 text-left">
+        <h1>Isha Gupta</h1>
+        <p></p>
+        <hr>
+        <h3>Who am I?</h3>
+        <p>Nature lover and a Home maker.</p>
+        <h3>What do I do?</h3>
+        <p>I am Senior Consultant with <a href="https://www.thoughtworks.com/" target="_blank">ThoughtWorks</a>. I write
+          software for a
+          living. Always interested in
+          new technology.
+          Lately, I have been investing my time in
+          learning and practicing Apache Kafka & some technologies in relation to Data Engineering.
+          I am an organiser of <a href="#" target="_blank">DevOps Melbourne</a> Meetup Group. I believe in sharing the
+          knowledge back to
+          the community and also helping new people to join the community.</p>
+      </div>
+      <div class="col-sm-2 sidenav">
+
+        <p><a target="_blank" href="https://twitter.com/ishagupta_1" class="fa fa-twitter"></a></p>
+        <p><a target="_blank" href="https://www.linkedin.com/in/isha-gupta-australia/" class="fa fa-linkedin"></a></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid text-center">
+    <p>Copyright @Isha Gupta Tahlan</p>
+  </footer>
+
+</body>
+
+</html>
