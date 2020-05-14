@@ -2,16 +2,34 @@
 <html lang="en">
 
 <head>
-    <title>Isha Gupta</title>
+    <title>Hello World - This is Isha Gupta </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
+        body {
+            font: 20px Montserrat, sans-serif;
+            line-height: 1.8;
+            color: #f5f6f7;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .margin {
+            margin-bottom: 45px;
+        }
+
         .bg-1 {
             background-color: transparent;
+            background-image: url("images/moon-space.jpg");
+            background-size: cover;
+            background-position: center;
             /* Green */
             color: #ffffff;
         }
@@ -28,30 +46,15 @@
             color: #555555;
         }
 
+        .bg-4 {
+            background-color: #2f2f2f;
+            /* Black Gray */
+            color: #fff;
+        }
+
         .container-fluid {
             padding-top: 70px;
             padding-bottom: 70px;
-        }
-
-        body {
-            font: 20px "Montserrat", sans-serif;
-            line-height: 1.8;
-            background-image: url('hands-world.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }
-
-        h3 {
-            color: black;
-        }
-
-        p {
-            font-size: 16px;
-        }
-
-        .margin {
-            margin-bottom: 45px;
         }
 
         .navbar {
@@ -67,19 +70,78 @@
         .navbar-nav li a:hover {
             color: #1abc9c !important;
         }
-
-        div {}
     </style>
 </head>
 
 <body>
+
+    <!-- Navbar Image by <a href="https://pixabay.com/users/PIRO4D-2707530/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1817885">PIRO4D</a>from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1817885">Pixabay</a>-->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">IGT</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#whatamI">ABOUT</a></li>
+                    <!--<li><a href="#whatamI">WHAT</a></li> -->
+                    <li><a href="#whereToFindMe">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
     <div class="container-fluid bg-1 text-center">
-        <h3>Welcome to my world</h3>
-        <!-- <img src="laptop-code.jpg" alt="laptop"> -->
+        <!-- <h2 class="margin">Isha Gupta</h2> -->
+        <!-- <img src="images/hands-world.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird"
+            width="350" height="400"> -->
+        <!-- <h3>Data Engineer</h3> -->
     </div>
+
+    <!-- Second Container -->
+    <div id="whatamI" class="container-fluid bg-3 text-center">
+        <!-- <div class="col-sm-10 text-center"> -->
+        <h3 class=" margin">Isha Gupta</h3>
+
+        <p>I am Senior Consultant with <a href="https://www.thoughtworks.com/" target="_blank">ThoughtWorks</a>.
+            I
+            write
+            software for a
+            living. I am very interested in
+            new technology.
+            Lately, I have been investing my time in
+            learning and practicing Apache Kafka & some technologies in relation to Data Engineering.
+            I am an organiser of <a href="#" target="_blank">DevOps Melbourne</a> Meetup Group. I believe in
+            sharing
+            the
+            knowledge back to
+            the community and also helping new people to join the community.
+        </p>
+
+        <!-- </div> -->
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="whereToFindMe" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Contact me</h3><br>
+        <div class="row">
+            <a target="_blank" href="https://www.linkedin.com/in/isha-gupta-australia/" class="fa fa-linkedin"></a>
+            <a target="_blank" href="https://twitter.com/ishagupta_1" class="fa fa-twitter"></a>
+            <a target="_blank" href="https://github.com/guptais" class="fa fa-github"></a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Copyright @Isha Gupta Tahlan</p>
+    </footer>
+
 </body>
-<!-- <footer class="container-fluid bg-1 text-center">
-    <p>Made By <a href="https://www.w3schools.com">Isha Gupta</a></p>
-</footer> -->
 
 </html>
