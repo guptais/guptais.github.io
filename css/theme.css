@@ -18,6 +18,7 @@ p {
   background-size: cover;
   background-position: center;
   background-blend-mode: lighten;
+  min-height: 600px;
 }
 
 .bg-2 {
@@ -38,6 +39,7 @@ p {
   background-color: #2f2f2f;
   /* Black Gray */
   color: #fff;
+  max-height: 100px;
 }
 
 .container-fluid {
@@ -45,6 +47,10 @@ p {
   padding-bottom: 70px;
 }
 
+.container-fluid-footer {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
