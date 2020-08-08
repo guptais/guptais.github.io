@@ -70,3 +70,12 @@ p {
   padding-left: 10px;
   color: darkgray;
 }
+
+article {  
+  display: grid;  
+  grid-template-columns: 1fr 740px 1fr;  
+}
+
+article > \* {  
+  grid-column: 2;  
+}
