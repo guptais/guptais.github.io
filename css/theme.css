@@ -48,8 +48,12 @@ p {
 }
 
 .container-fluid-footer {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-bottom: 10px;
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
 }
 .navbar {
   padding-top: 15px;
@@ -69,4 +73,19 @@ p {
   font-size: 21px;
   padding-left: 10px;
   color: darkgray;
+}
+
+.form-box {
+  max-width: 600px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  padding: 20px;
+  background: #ffffffb4;
+  /* border: 5px solid #f2f2f2; */
+}
+
+.form-control {
+  resize: none;
 }
