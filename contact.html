@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="scripts/contact_me.js"></script>
 </head>
 
 <body>
@@ -36,36 +37,38 @@
     </div>
   </nav>
   <!--End Header-->
-
+  <div class="jumbotron">
+    <div class="container text-center">
+      <h1>Get in touch</h1>
+      <span>
+        <a target="_blank" href="mailto:igupta0504@gmail.com" class="fa fa-envelope social-icon"></a>
+        <a target="_blank" href="https://www.linkedin.com/in/isha-gupta-australia/"
+          class="fa fa-linkedin social-icon"></a>
+        <a target="_blank" href="https://twitter.com/ishagupta_1" class="fa fa-twitter social-icon"></a>
+      </span>
+    </div>
+  </div>
   <!--Form-->
   <div id="contact-us" class="container bg-3 text-left">
     <div class="form-box">
-      <form method="post" onsubmit="return false;">
-        <h1 class="text-center">Share your thoughts.</h1>
-      </form>
-      </br>
-      <div class="form-group">
+      <form method="post" action="#" onsubmit="return Validate()">
+        <!-- <div class="form-group"> -->
         <label for="name">Name</label>
         <input class="form-control" type="text" id="name" name="name">
-      </div>
-      <div class="form-group">
+        <!-- </div> -->
+        <!-- <div class="form-group"> -->
         <label for="email">Email</label>
         <input class="form-control" type="email" id="email" name="email">
-      </div>
-      <div class="form-group">
+        <!-- </div> -->
+        <!-- <div class="form-group"> -->
         <label for="message">Message</label>
         <textarea class="form-control" name="message" id="message" rows="7"></textarea>
-      </div>
-      <input class="btn btn-primary" type="Submit" value="Send" />
+        <!-- </div> -->
+        <input class="btn btn-primary" type="Submit" value="Submit" />
       </form>
     </div>
   </div>
   <!--End Form-->
-
-  <!-- Footer -->
-  <footer class="container-fluid-footer bg-4 text-center">
-    <p>Copyright <i class="fa fa-copyright" style="font-size:15px"></i> 2020
-  </footer>
 </body>
 
 </html>
