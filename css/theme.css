@@ -57,8 +57,8 @@ p {
 }
 
 .navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 1px;
+  padding-bottom: 1px;
   border: 0;
   border-radius: 0;
   margin-bottom: 0;
@@ -89,4 +89,10 @@ p {
 
 .form-control {
   resize: none;
+}
+
+.jumbotron {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
 }
