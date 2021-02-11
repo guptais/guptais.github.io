@@ -50,7 +50,7 @@ p {
 .container-fluid-footer {
   padding-top: 15px;
   padding-bottom: 10px;
-  position: Fixed;
+  position: relative;
   bottom: 0;
   height: 50px;
   width: 100%;
